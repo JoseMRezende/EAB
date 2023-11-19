@@ -19,3 +19,6 @@
  - Se sexo for masculino e idade <= 25: Valor da apólice = 15% do valor do automóvel
  - Se sexo for masculino e idade > 25: Valor da apólice = 10% do valor do automóvel
  - Se sexo for feminino: Valor da apólice = 8% do valor do automóvel
+
+5.Resolução
+ - Branch Master
