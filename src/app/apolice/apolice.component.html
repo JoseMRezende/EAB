@@ -1,0 +1,78 @@
+<div class="container text-center" style="margin-top: 40px">
+  <h1 style="margin-top: 20px; margin-bottom: 10px">Apólice de Seguro</h1>
+  <div class="row row-cols-2">
+    <div class="col">
+      <div class="mb-3">
+        <label for="exampleInputNome" class="form-label"
+          >Nome do Segurado</label
+        >
+        <input
+          type="text"
+          class="form-control"
+          id="exampleInputNome"
+          class="form-control border border-primary rounded"
+        />
+      </div>
+    </div>
+    <div class="col">
+      <div class="mb-3">
+        <label for="exampleInputSexo" class="form-label">Sexo</label>
+        <select
+          id="selectSexo"
+          class="form-select"
+          aria-label="Default select example"
+        >
+          <option selected>Selecionar</option>
+          <option id="M1" value="1">Masculino</option>
+          <option id="F2" value="2">Feminino</option>
+        </select>
+      </div>
+    </div>
+    <div class="col">
+      <div class="mb-3">
+        <label for="exampleInputIdade" class="form-label">Idade</label>
+        <input
+          type="number"
+          class="form-control"
+          id="exampleInputIdade"
+          class="form-control border border-primary rounded"
+        />
+      </div>
+    </div>
+    <div class="col">
+      <div class="mb-3">
+        <label for="exampleInputValor" class="form-label"
+          >Valor do Automovel</label
+        >
+        <div class="input-group mb-3">
+          <span class="input-group-text">$</span>
+          <input
+            type="text"
+            class="form-control"
+            aria-label="Amount (to the nearest dollar)"
+            id="inputValorCarro"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    (click)="enviar()"
+    type="button"
+    class="btn btn-primary"
+    style="margin-top: 40px; width: 400px"
+  >
+    Enviar
+  </button>
+  <label
+    id="label-resposta"
+    style="
+      margin-top: 80px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-size: 1cm;
+    "
+    >...</label
+  >
+</div>

@@ -1,0 +1,61 @@
+<div class="container text-center" style="margin-top: 40px">
+  <h1 style="margin-top: 20px">Formulario</h1>
+  <div class="row row-cols-2">
+    <div class="col">
+      <div class="mb-3">
+        <label for="exampleInputRA" class="form-label">RA</label>
+        <input
+          [(ngModel)]="ra"
+          type="text"
+          class="form-control"
+          id="exampleInputRA"
+          class="form-control border border-primary rounded"
+        />
+      </div>
+    </div>
+    <div class="col">
+      <div class="mb-3">
+        <label for="exampleInputNome" class="form-label">Nome</label>
+        <input
+          [(ngModel)]="nome"
+          type="text"
+          class="form-control"
+          id="exampleInputNome"
+          class="form-control border border-primary rounded"
+        />
+      </div>
+    </div>
+    <div class="col">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email</label>
+        <input
+          [(ngModel)]="email"
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          class="form-control border border-primary rounded"
+        />
+      </div>
+    </div>
+    <div class="col">
+      <div class="mb-3">
+        <label for="exampleInputCelular" class="form-label">Celular</label>
+        <input
+          [(ngModel)]="celular"
+          type="tel"
+          class="form-control"
+          id="exampleInputCelular"
+          class="form-control border border-primary rounded"
+        />
+      </div>
+    </div>
+  </div>
+  <button
+    (click)="enviar()"
+    type="button"
+    class="btn btn-primary"
+    style="margin-top: 40px; width: 400px"
+  >
+    Enviar
+  </button>
+</div>
